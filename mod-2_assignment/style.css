@@ -20,17 +20,6 @@ ul.linkslist {
   padding: 0;
 }
 
-#section1 {
-  color:aqua;
-}
-
-#section2 {
-  color: red;
-  font-style: italic;
-  font-size: 2em;
-  text-align: center;
-}
-
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,36 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#mainHeadBox {
+  background-image: linear-gradient(to right, rgb(21, 90, 150), rgb(21, 146, 93));
+  text-align: center;
+  overflow: hidden;
+  height: 18em;
+}
+
+#mainHeadBox > h1 {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+#mainHeadBox > h2 {
+  font-size: 1.5em;
+  color: rgb(171,207,205);
+  font-weight: normal;
+  margin-top: 1em;
+}
+
+#mainHeadBox > a {
+  font-size: 1em;
+  color: rgb(171,207,205);
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 2.5em;
+  padding-top: 0.25em;
+  width: 10em;
+  height: 2em;
+  background-image: linear-gradient(to right, rgb(59, 101, 138), rgb(76, 150, 119));
+}
