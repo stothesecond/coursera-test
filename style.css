@@ -121,3 +121,18 @@ h1 {
     color: #819198;
     border-left: 0.3rem solid #dce6f0;
 }
+
+.foot-desc {
+  display: block;
+  font-weight: bold;
+}
+
+.foot-credits {
+  color: rgb(129, 145, 152);
+}
+
+footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px rgb(220, 230, 240);
+}
