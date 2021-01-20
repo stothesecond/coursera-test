@@ -1,0 +1,26 @@
+ul.linkslist a {
+  display: block;
+  color: black;
+  margin-bottom: 1px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  width: 6em;
+  font-size: 2em;
+  text-decoration: none;
+  font-family:
+    Impact
+    , Haettenschweiler
+    , 'Arial Narrow Bold'
+    , sans-serif;
+}
+
+ul.linkslist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
