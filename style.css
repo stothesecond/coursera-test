@@ -94,7 +94,7 @@ header main {
 }
 
 a {
-  color: #1e6bb8;
+  color: rgb(30, 107, 184);
   text-decoration: none;
 }
 
@@ -118,8 +118,8 @@ h1 {
 .main-content blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: #819198;
-    border-left: 0.3rem solid #dce6f0;
+    color: rgb(129, 145, 152);
+    border-left: 0.3rem solid rgb(220, 230, 240);
 }
 
 .foot-desc {
