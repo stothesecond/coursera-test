@@ -1,4 +1,7 @@
-/* Simple Responsive Framework. */
+/* A Simple Responsive Framework created by taking the Simple Responsive Framework 
+   Made during lecture 24 of the "HTML, CSS, and Javascript for Web Developers" course
+   on Coursera and adding a few tweaks that seem useful.
+*/
 * {
   box-sizing: border-box;
 }
