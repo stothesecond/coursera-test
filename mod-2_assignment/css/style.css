@@ -21,7 +21,7 @@ div.food-option {
   border: 1px black solid;
   background-color: rgb(146, 146, 145);
   position: relative;
-  margin: 0.5em;
+  margin: 1em 0.5em 0 0.5em;
 }
 
 div.food-option > header {
