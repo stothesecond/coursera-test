@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+  color: #202020;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+/* HEADER */
+
+.navbar-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div.navbar-brand h1 {
+  font-family: 'Eczar', serif;
+  font-size: 2.5em;
+  color: #202020;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.65em;
+}
+
+.navbar-brand:hover {
+  color: #202020;
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: #535353;
+}
+
+#nav-button span.icon-bar {
+  background-color: #000;
+}
+#nav-button {
+  border-color: #000;
+}
+
+#nav-button:active, #nav-button:focus {
+  border-color: #fff;
+}
+#nav-button:active span.icon-bar, #nav-button:focus span.icon-bar {
+  background-color: #fff;
+}
+
+#collapsible-nav {
+  background-color: #d6d6d6;
+  border: 1px #000 solid;
+}
+#collapsible-nav a {
+  color: #202020;
+}
+#collapsible-nav hr {
+  border-color: black;
+  width: 100%;
+  margin: 7.5px 0;
+}
+
+/* END OF HEADER */
+
+
+
+/* MAIN CONTENT */
+
+#main-content h2 {
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+#main-content section {
+  background-color: #757575;
+  margin-bottom: 20px;
+}
+#main-content h3 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+/* END OF MAIN CONTENT */
+
+@media (min-width: 768px) {
+  #collapsible-nav{
+    display: none!important;
+  }
+}

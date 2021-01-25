@@ -2,30 +2,59 @@
 <html lang="en-us">
   <head>
     <title>Hello Coursera!</title>
+    <meta charset="utf-8">
     <meta name="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      header element. this website is made by Steven
-      <nav>
-        <h1>navigation links</h1>
-        <ul class="linkslist">
-          <li><a href="#section1"> goto section 1 </a></li>
-          <li><a href="#section2"> goto section 2 </a></li>
-          <li><a href="http://google.com/" target="_blank"> goto google </a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="row">
-      <div class="col-md-6 col-lg-6">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa veniam tenetur quisquam sit nulla aliquid culpa laborum vero voluptatibus, reiciendis hic eos libero voluptates aspernatur? Molestiae vel dolor deleniti tenetur.
-      </div>
-      <div class="col-md-6 col-lg-6">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum culpa neque, praesentium dolores reiciendis quibusdam obcaecati, totam sequi explicabo, vitae laboriosam. Ullam reiciendis unde eaque nobis expedita earum, quo quae.
-      </div>
-    </div>
+    <nav id="header-nav" class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <h1>Food, LLC</h1>
+          </div>
+  
+          <button id="nav-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsible-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsible-nav" class="collapse navbar-collapse text-center">
+          <ul id="nav-list" class="nav navbar-nav">
+            <li><a href="#section-chicken">Chicken</a><hr></li>
+            <li><a href="#section-beef">Beef</a><hr></li>
+            <li><a href="#section-sushi">Sushi</a></li>
+          </ul>
+        </div> <!-- #collapsible-nav -->
+      </div> <!-- .container -->
+    </nav>
+
+    <section id="main-content" class="container text-center">
+      <h2>Our Menu</h2>
+      <section id="section-chicken" class="col-xs-12">
+        <h3>Chicken</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium necessitatibus eligendi, doloremque doloribus reprehenderit asperiores sit incidunt tenetur! Corporis odit itaque eveniet eos accusantium repudiandae fuga ex vitae debitis rem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorum tempora eius facilis doloribus nobis accusantium, assumenda iure. Quos voluptatibus dolores animi hic soluta est tempora officia, rem labore quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ratione labore praesentium voluptas saepe odio omnis iusto, quo asperiores. Dolore quos ad obcaecati accusantium voluptates voluptas amet aut delectus provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore voluptas delectus dicta saepe. Fugit perferendis hic sit nobis corporis ut repellat doloribus aliquid enim mollitia, adipisci natus libero quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga aperiam facilis dolorem earum, iusto, animi tenetur quis necessitatibus deserunt perspiciatis! Dicta tempora odio atque voluptates quae harum consequatur perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, inventore sit incidunt debitis esse, ipsa sunt laboriosam quod, officiis enim iste quis. Rem aliquid similique voluptatibus nesciunt, tempore dolorem enim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, et dolorem fugiat ullam, quia ipsum quidem officia facilis nobis at eveniet est consectetur recusandae ratione, esse sunt. Quae, asperiores sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit quaerat suscipit asperiores recusandae, repellendus vitae voluptatum, id sed molestiae beatae consequatur facere perferendis illum adipisci autem. Soluta, quaerat nobis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptate voluptates aspernatur totam animi quidem, mollitia impedit suscipit rerum laborum aperiam commodi delectus accusamus ad facilis nam, natus minus laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam error earum repellendus, a excepturi praesentium tempora autem optio voluptatibus ducimus architecto consequatur obcaecati delectus hic? Assumenda beatae facere inventore et?</p>
+      </section>
+      <section id="section-beef" class="col-xs-12">
+        <h3>Beef</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium necessitatibus eligendi, doloremque doloribus reprehenderit asperiores sit incidunt tenetur! Corporis odit itaque eveniet eos accusantium repudiandae fuga ex vitae debitis rem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorum tempora eius facilis doloribus nobis accusantium, assumenda iure. Quos voluptatibus dolores animi hic soluta est tempora officia, rem labore quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ratione labore praesentium voluptas saepe odio omnis iusto, quo asperiores. Dolore quos ad obcaecati accusantium voluptates voluptas amet aut delectus provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore voluptas delectus dicta saepe. Fugit perferendis hic sit nobis corporis ut repellat doloribus aliquid enim mollitia, adipisci natus libero quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga aperiam facilis dolorem earum, iusto, animi tenetur quis necessitatibus deserunt perspiciatis! Dicta tempora odio atque voluptates quae harum consequatur perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, inventore sit incidunt debitis esse, ipsa sunt laboriosam quod, officiis enim iste quis. Rem aliquid similique voluptatibus nesciunt, tempore dolorem enim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, et dolorem fugiat ullam, quia ipsum quidem officia facilis nobis at eveniet est consectetur recusandae ratione, esse sunt. Quae, asperiores sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit quaerat suscipit asperiores recusandae, repellendus vitae voluptatum, id sed molestiae beatae consequatur facere perferendis illum adipisci autem. Soluta, quaerat nobis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptate voluptates aspernatur totam animi quidem, mollitia impedit suscipit rerum laborum aperiam commodi delectus accusamus ad facilis nam, natus minus laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam error earum repellendus, a excepturi praesentium tempora autem optio voluptatibus ducimus architecto consequatur obcaecati delectus hic? Assumenda beatae facere inventore et?</p>
+      </section>
+      <section id="section-sushi" class="col-xs-12">
+        <h3>Sushi</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium necessitatibus eligendi, doloremque doloribus reprehenderit asperiores sit incidunt tenetur! Corporis odit itaque eveniet eos accusantium repudiandae fuga ex vitae debitis rem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolorum tempora eius facilis doloribus nobis accusantium, assumenda iure. Quos voluptatibus dolores animi hic soluta est tempora officia, rem labore quam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti ratione labore praesentium voluptas saepe odio omnis iusto, quo asperiores. Dolore quos ad obcaecati accusantium voluptates voluptas amet aut delectus provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tempore voluptas delectus dicta saepe. Fugit perferendis hic sit nobis corporis ut repellat doloribus aliquid enim mollitia, adipisci natus libero quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga aperiam facilis dolorem earum, iusto, animi tenetur quis necessitatibus deserunt perspiciatis! Dicta tempora odio atque voluptates quae harum consequatur perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, inventore sit incidunt debitis esse, ipsa sunt laboriosam quod, officiis enim iste quis. Rem aliquid similique voluptatibus nesciunt, tempore dolorem enim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, et dolorem fugiat ullam, quia ipsum quidem officia facilis nobis at eveniet est consectetur recusandae ratione, esse sunt. Quae, asperiores sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit quaerat suscipit asperiores recusandae, repellendus vitae voluptatum, id sed molestiae beatae consequatur facere perferendis illum adipisci autem. Soluta, quaerat nobis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptate voluptates aspernatur totam animi quidem, mollitia impedit suscipit rerum laborum aperiam commodi delectus accusamus ad facilis nam, natus minus laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam error earum repellendus, a excepturi praesentium tempora autem optio voluptatibus ducimus architecto consequatur obcaecati delectus hic? Assumenda beatae facere inventore et?</p>
+      </section>
+    </section>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
